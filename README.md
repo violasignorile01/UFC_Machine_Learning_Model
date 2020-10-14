@@ -14,7 +14,7 @@ Data cleaning was a very essential part, as two data sets were being combined, a
 * Columns were then chosen to keep in the dataframe by finding which columns were common in both files
 * The data that contained draws, women’s weight divisions, and catch weight divisions were all dropped, in order to have a more accurate model 
     * catch weight division is when two fighters agree upon an arbitrary weight, outside the standard weight classes - this data was believed to not be very useful for the model  
-* Finally, using the new filtered dates, now in datetime format, and the common columns chosen, the new ~complete~ data frame was created
+* Finally, using the new filtered dates, now in datetime format, and the common columns chosen, the new, complete data frame was created
 
 
 ## My Chosen Feature
