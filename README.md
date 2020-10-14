@@ -1,5 +1,7 @@
 # UFC Machine Learning Model 
 
+"A machine learning model is a file that has been trained to recognize certain types of patterns. You train a model over a set of data, providing it an algorithm that it can use to reason over and learn from those data." - Microsoft 
+
 Core Responsibilities; Project Manager, choosing a feature to add to the model 
 
 Tools Used; Python (Pandas, Matplotlib, Scikit-learn), Jupyter Notebook
