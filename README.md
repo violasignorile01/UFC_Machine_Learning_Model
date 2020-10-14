@@ -1,5 +1,10 @@
 # UFC Machine Learning Model 
 
+Core Responsibilities; Project Manager, choosing a feature to add to the model 
+
+Tools Used; Python (Pandas, Matplotlib, Scikit-learn), Jupyter Notebook
+
+
 ## Overview
 Used UFC data pulled through Kaggle to create a machine learning model which would predict UFC fights.
 
@@ -8,11 +13,11 @@ Used UFC data pulled through Kaggle to create a machine learning model which wou
 ## Data Cleaning Process 
 Data cleaning was a very essential part, as two data sets were being combined, and there were important decisions made to figure out which aspects were needed from each  
 
-* The process started with reading in both csv datasets, with Pandas - one of them being a ‘history’ file, and the other a ‘current’ file
-* Then, for both csv’s, the dates were converted from their original date format to datetime format, by assigning the date column to a variable, also using Pandas
-* Then dates were only choosen from the ‘current’ file if they were after August 6th 2019, since all dates before then already existed in the ‘history’ file - this was done in order to not have any duplicates in the data
-* Columns were then chosen to keep in the dataframe by finding which columns were common in both files
-* The data that contained draws, women’s weight divisions, and catch weight divisions were all dropped, in order to have a more accurate model 
+* The process started with reading in both csv datasets, with Pandas - one of them being a ‘history’ file, and the other a ‘current’ file;
+* Then, for both csv’s, the dates were converted from their original date format to datetime format, by assigning the date column to a variable, also using Pandas;
+* Then dates were only choosen from the ‘current’ file if they were after August 6th 2019, since all dates before then already existed in the ‘history’ file - this was done in order to not have any duplicates in the data;
+* Columns were then chosen to keep in the dataframe by finding which columns were common in both files;
+* The data that contained draws, women’s weight divisions, and catch weight divisions were all dropped, in order to have a more accurate model; 
     * catch weight division is when two fighters agree upon an arbitrary weight, outside the standard weight classes - this data was believed to not be very useful for the model  
 * Finally, using the new filtered dates, now in datetime format, and the common columns chosen, the new, complete data frame was created
 
